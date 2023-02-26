@@ -30,17 +30,19 @@
   <body>
     <div class="page">
       <header class="header">
-        <img
-          class="header__logo"
-          src="./images/logo_coffee_shop.svg"
-          alt="Practicum Coffee shop Logo"
-        />
+        <nav class="nav">
+          <img
+            class="header__logo"
+            src="./images/logo_coffee_shop.svg"
+            alt="Practicum Coffee shop Logo"
+          />
 
-        <nav class="navbar">
-          <a class="nav__link" href="#">Menu</a>
-          <a class="nav__link" href="#recipes">Recipes</a>
-          <a class="nav__link" href="#">Book a table</a>
-          <a class="nav__link" href="#">Contacts</a>
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#reservation">Book a table</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
         </nav>
 
         <h1 class="header__title">
@@ -64,7 +66,7 @@
 
           <p class="header__paragraph">Monday – Friday (10:00 – 19:00)</p>
 
-          <p class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</p>
+          <p class="header__paragraph">Saturday – Sunday (11:00 –18:00)</p>
         </div>
 
         <p class="header__address">200 Success Avenue, The Town of Practicum</p>
@@ -78,9 +80,10 @@
             convenience:
           </h3>
 
-          <div class="recipes recipes__videos">
+          <div class="recipes__videos">
             <div class="recipes__iframe">
               <iframe
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -95,6 +98,7 @@
 
             <div class="recipes__iframe">
               <iframe
+                class="recipes__iframe"
                 width="480"
                 height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
@@ -109,7 +113,7 @@
           </div>
         </section>
 
-        <section id="book-a-table" class="reservation"></section>
+        <section id="reservation" class="reservation"></section>
 
         <section id="menu" class="menu"></section>
 
