@@ -11,6 +11,11 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
+## Languages used
+
+-HTML
+-CSS
+
 ## Plan on improving the project
 
-Add your ideas here :)
+Could add an option to order on the website for pickup at a certain time.
