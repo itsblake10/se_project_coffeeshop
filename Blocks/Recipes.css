@@ -7,6 +7,9 @@
   background-size: cover;
   background-color: #0a2750;
   height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-bottom: 215px;
 }
 
 .recipes__title {
@@ -45,6 +48,7 @@
   align-items: center;
   gap: 40px;
   margin-top: 215px;
+  box-sizing: border-box;
 }
 
 .recipes__iframe {

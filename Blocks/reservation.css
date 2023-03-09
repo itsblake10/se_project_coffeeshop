@@ -7,6 +7,9 @@
   background-size: cover;
   background-color: #d9e7ff;
   height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -22,5 +25,6 @@
 }
 
 .reservation__form {
-  margin-top: 180px;
+  padding-top: 180px;
+  box-sizing: border-box;
 }

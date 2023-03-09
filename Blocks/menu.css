@@ -6,6 +6,8 @@ menu {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .menu__title {
@@ -18,6 +20,7 @@ menu {
   margin: auto;
   padding: 100px 0 0 0;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .menu__subtitle {

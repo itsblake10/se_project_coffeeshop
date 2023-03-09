@@ -22,11 +22,11 @@
   background-position: center;
   position: relative;
   overflow: hidden;
-  box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .about__circle {
