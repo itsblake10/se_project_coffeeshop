@@ -4,9 +4,8 @@
   background-position: center;
   background-size: cover;
   background-color: #ffffff;
-  height: 100vh;
   min-height: 720px;
-  max-height: 800px;
+  height: 100vh;
 }
 
 .header__logo {
@@ -58,6 +57,16 @@
   right: 5px;
 }
 
+.header__paragraph {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  margin: 0;
+}
+
 .header__footer {
   font-family: "Inter";
   font-style: normal;
@@ -70,16 +79,6 @@
   position: absolute;
   bottom: 40px;
   left: 80px;
-}
-
-.header__paragraph {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 0;
 }
 
 .header__address {
