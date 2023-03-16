@@ -8,6 +8,13 @@
   height: 100vh;
 }
 
+.header__logo {
+  width: 125px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
 .header__title {
   max-width: 729px;
   font-family: "Inter", Arial, sans-serif;
