@@ -6,24 +6,22 @@
   background-position: center;
   background-size: cover;
   background-color: #d9e7ff;
-  min-height: 720px;
-  max-height: 800px;
   padding-bottom: 120px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .reservation__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   margin: 0;
   text-align: center;
-  position: relative;
-  top: 100px;
 }
 
 .reservation__form {
-  padding-top: 180px;
-  box-sizing: border-box;
+  margin-top: 80px;
 }

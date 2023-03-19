@@ -5,15 +5,9 @@
   background-size: cover;
   background-color: #ffffff;
   min-height: 720px;
+  max-height: 800px;
   height: 100vh;
   position: relative;
-}
-
-.header__logo {
-  width: 125px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
 }
 
 .header__title {
@@ -23,32 +17,32 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  margin: 0;
-  position: relative;
-  top: 252px;
-  left: 80px;
+  margin: 252px 0 0 80px;
+  z-index: 1;
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  z-index: 1;
 }
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
-  position: relative;
   top: 280px;
   left: 80px;
+  margin: 28px 0 auto 80px;
+  z-index: 1;
 }
 
 .header__image {
@@ -56,10 +50,11 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 
 .header__paragraph {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -69,7 +64,7 @@
 }
 
 .header__footer {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -82,8 +77,8 @@
   left: 80px;
 }
 
-.header__address {
-  font-family: "Inter";
+.header__paragraph-address {
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
