@@ -8,6 +8,7 @@
   max-height: 800px;
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -18,7 +19,7 @@
   font-size: 60px;
   line-height: 72px;
   margin: 252px 0 0 80px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -29,20 +30,18 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__description {
   max-width: 683px;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  top: 280px;
-  left: 80px;
-  margin: 28px 0 auto 80px;
-  z-index: 1;
+  margin: 28px 0 0 80px;
+  z-index: 2;
 }
 
 .header__image {
@@ -50,7 +49,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header__paragraph {
@@ -61,6 +60,9 @@
   line-height: 20px;
   color: #838383;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .header__footer {
@@ -71,21 +73,7 @@
   line-height: 20px;
   color: #838383;
   display: flex;
-  flex-direction: column;
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-}
-
-.header__paragraph-address {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-  margin: 0;
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 165px 80px 40px 80px;
 }

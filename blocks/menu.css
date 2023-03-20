@@ -6,6 +6,8 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .menu__title {
@@ -16,26 +18,24 @@
   line-height: 52px;
   max-width: 780px;
   margin: auto;
-  padding: 100px 0 0 0;
+  padding: 0;
   text-align: center;
   box-sizing: border-box;
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
-  margin: auto;
-  padding: 24px 0 0 0;
+  margin: 24px auto 100px auto;
+  padding: 0;
   text-align: center;
 }
 
 .menu__cards {
-  padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
