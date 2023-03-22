@@ -42,9 +42,15 @@
   margin: 0;
 }
 
+.recipes__video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .recipes__iframe {
   width: 480px;
-  height: 272px;
+  min-height: 272px;
   border: none;
 }
 
@@ -56,7 +62,6 @@
   line-height: 30px;
   color: #ffffff;
   width: 480px;
-  padding: 24px 0 0 0;
   margin: 0;
   display: flex;
   justify-content: space-between;
